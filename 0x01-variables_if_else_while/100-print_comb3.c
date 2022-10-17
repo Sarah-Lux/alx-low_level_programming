@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-*main-program entry point.
-*Return:0 success, non zero fail
-*/
+ *main-program entry point.
+ *Return:0 success, non zero fail
+ */
 int main(void)
 {
 int i, k = '0', j;
@@ -20,6 +20,7 @@ if (i == j)
 continue;
 }
 if (i == '8' && j == '9')
+{
 break;
 }
 else
