@@ -1,15 +1,13 @@
 /**
- * _isupper - check if c is upper
+ * mul - multiplies two integers
  *
- * @c: input for alphabet
+ * @a: first input
+ * @b: second input
  *
- * Return: 1 if its uppercase, 0 if not
+ * Return: return results
 */
 
-int _isupper(int c)
+int mul(int a, int b)
 {
-	if (c >= 65 && c <= 90)
-		return (1);
-	else
-		return (0);
+	return (a * b);
 }
